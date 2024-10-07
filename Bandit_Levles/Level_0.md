@@ -35,8 +35,11 @@ Enter --> **Password: Bandit0**
 
 ![image](https://github.com/user-attachments/assets/558fd9bb-fb4d-40ea-a00a-7c0f93c149ad)
 
-Once we enter the correct password, we will recieve a prompt about the rules on this level, and our user name and the host name will change. 
+Once we enter the correct password, we will recieve a prompt about the rules on this level, and our user name and 
+the host name will change. 
+
 ![image](https://github.com/user-attachments/assets/b629292e-b423-41eb-9be0-2c9a579fb70b)
+
 
 ![image](https://github.com/user-attachments/assets/1f376907-10d4-4331-802a-d5003034a1bd)
 
