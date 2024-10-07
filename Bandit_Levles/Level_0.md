@@ -51,6 +51,11 @@ see a welcome message and some rules regarding this level:
 ![image](https://github.com/user-attachments/assets/21118bd9-0d06-4035-8c99-70e81c14449b)
 
 
+## **Login Confrimation**
+
+To confirm that we have logged in succesfully we can use commands `whoami` and `hostname` 
+to verify our current username and hostname we are connected to:
+
 ![image](https://github.com/user-attachments/assets/b629292e-b423-41eb-9be0-2c9a579fb70b)
 
 
