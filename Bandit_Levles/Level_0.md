@@ -48,6 +48,9 @@ When prompted, enter the password `bandit0` as shown below:
 After entering the correct password, you will be logged into the Bandit server, where you'll 
 see a welcome message and some rules regarding this level:
 
+![image](https://github.com/user-attachments/assets/21118bd9-0d06-4035-8c99-70e81c14449b)
+
+
 ![image](https://github.com/user-attachments/assets/b629292e-b423-41eb-9be0-2c9a579fb70b)
 
 
