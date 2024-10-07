@@ -1,6 +1,6 @@
 # **LEVEL 0**
 ## **Level Goal**
-
+---
 The goal of this level is for you to log into the game using SSH. The host to which you need to connect is bandit.labs.overthewire.org, on port 2220. 
 The username is bandit0 and the password is bandit0. Once logged in, go to the Level 1 page to find out how to beat Level 1.
 
@@ -8,7 +8,6 @@ The username is bandit0 and the password is bandit0. Once logged in, go to the L
 
 - ssh
 
-# **WALKTHROUGH**
 Before we can move on to Level 1, we need to access Level 0. The Level Goal instructs us to log into the game using a Linux tool called `ssh` (Secure Shell Protocol).
 
 ## **What is SSH?**
@@ -18,6 +17,8 @@ Before we can move on to Level 1, we need to access Level 0. The Level Goal inst
 
 The user must prove thier identity to the remote machine using one of the several methods. 
 
+# **WALKTHROUGH**
+---
 On the Level Goal we are already give the creadentials needed to connect to the server. Which are:
 
 Username: **bandit0**
