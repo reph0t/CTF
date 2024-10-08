@@ -1,6 +1,6 @@
-# **LEVEL 0 - Logging In**
+# **LEVEL 0**
 
-## Part 1
+## Part 1 - Logging In
 
 ### **Level Goal**
 The goal of this level is for you to log into the game using SSH. The host to which you need to connect is bandit.labs.overthewire.org, on port 2220. 
@@ -67,7 +67,7 @@ to verify our current username and hostname we are connected to:
 
 This is a confirmation that we have succeded and connecting the bandit host. 
 
-## Part 2 (Level 0 --> Level 1)
+## Part 2 - Cat - (Level 0 --> Level 1)
 
 Now that we have successfully logged in to Bandit0, we need to progress to the next level.
 
