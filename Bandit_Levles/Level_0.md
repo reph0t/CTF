@@ -123,7 +123,7 @@ This will output the content of the file, including the password for the next le
 
 Congratulations! You now have the password for **Bandit1**.
 
-> [!NOTE] Important 
+> [!NOTE] 
 > The passwords you find for each level will not be saved automatically. It’s strongly recommended that you
 >  save them in a document for future reference. If you lose track of a password, you’ll have to start over from
 > Bandit0, so make sure to document your progress!
