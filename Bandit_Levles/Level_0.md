@@ -21,10 +21,10 @@ The user must prove thier identity to the remote machine using one of the severa
 
 On the Level Goal we are already give the creadentials needed to connect to the server. Which are:
 
-Username: **bandit0**
-Password: **bandit0**
-Host: **bandit.labs.overthewire.org**
-Port: **2220**
+- Username: **bandit0**
+- Password: **bandit0**
+- Host: **bandit.labs.overthewire.org**
+- Port: **2220**
 
 Its all of a matter putting everything together as a command
 
