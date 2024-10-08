@@ -69,7 +69,7 @@ This is a confirmation that we have succeded and connecting the bandit host.
 
 ## Part 2 (Level 0 --> Level 1)
 
-Now that we have succesfully logged in we are still in level 0. So we need to see what's the next goal is.
+Now that we have successfully logged in to Bandit0, we need to progress to the next level.
 
 ### **Level Goal**
 The password for the next level is stored in a file called readme located in the home directory. Use this password to log into bandit1 using SSH. Whenever you find a password for a level, use SSH (on port 2220) to log into that level and continue the game.
