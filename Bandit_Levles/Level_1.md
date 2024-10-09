@@ -7,19 +7,48 @@ The password for the next level is stored in a file called `-` located in the ho
 
 `ls , cd , cat , file , du , find`
 
-### **Dashed Files (-)**
-When listing the files of the current directory, there is a file with a `-`. We can't really use the `cat` command
-because the `cat` command doesn't know if you're referring to a file or directly from the user's input(stdin).
+### **Dashed Files (`-`)**
+In this level, when you list the files in the current directory, you'll notice a file named `-`. The challenge here is that you can’t directly use the `cat` command as usual because `cat` doesn’t know whether you're referring to a file or expecting input from the user (known as stdin).
 
-This is due to the fact that the `-` symbol in many UNIX commands, is a shorthand for "read from standard input" as stated before it means, it is expecting some kind of input in order for the command to execute it. 
+The `-` symbol is commonly used in many UNIX commands to signify **standard input (stdin)**. This means that when you run `cat -`, the system interprets `-` as "read from stdin" and waits for you to type input rather than treating `-` as a filename.
 
-In order to execute the command properly there will have to be a different approach. So `cat -` won't work in this case. We must execute a command that tells the `cat` command to interpret the dash as a file. 
+Therefore, a different approach is needed to explicitly tell `cat` to interpret the dash (`-`) as the name of a file, not stdin. This is why simply running `cat -` will not work.
 
 ## **WALKTHROUGH**
 
 **STEP 1**
 
- We enter this command: 
+To view the contents of the `-` file, run the following command:
 
  ```cat ./-```
+
+Here’s why this works:
+
+- The `./` refers to the current directory. By prepending `./` to the dash (`-`), you are telling `cat` that `-` is the name of a file in the current directory, not a special option for standard input.
+
+Executing this command will reveal the password for the next level.
+
+![image](https://github.com/user-attachments/assets/988e667c-b480-47ea-af8f-46695660a277)
+
+**Another Approach**
+
+There is also another way to handle dashed files. You can use **input redirection**:
+
+```cat < -```
+
+This method uses the `<` symbol, which is called **input redirection** in Bash. The `<` symbol tells Bash to take input from a file and pass it to the command.
+
+Here’s what happens:
+
+- cat < - is telling cat to read input from the file named - via input redirection.
+- However, this approach is less common and potentially confusing because cat already reads from stdin by default when no file is specified. Additionally, in more complex cases, input redirection with a file named - can lead to confusion since the dash is often interpreted as stdin.
+
+![image](https://github.com/user-attachments/assets/6f4f5e92-6d3e-4084-8e26-024f5f946db8)
+
+
+**TL;DR**
+- The command cat ./- is the cleaner and more reliable method to read the contents of the file named -.
+- While cat < - works by using input redirection, it's not as clear or commonly used since cat reads from stdin by default when no file is specified.
+- Both methods will display the contents of the file, but the first method (cat ./-) is simpler and clearer for this situation.
+
 
