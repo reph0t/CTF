@@ -1,0 +1,7 @@
+
+
+USE BASE64 DECODER
+
+**FLAG**: KRYPTONISGREAT
+
+`ssh -p 2231 krypton1@krypton.labs.overthewire.org`
