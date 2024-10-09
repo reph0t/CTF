@@ -1,5 +1,17 @@
 # LEVEL 1
 
+# Logging into Bandit1
+
+Similar to logging into bandit0 with the credentials provided, we will login into bandit1 as the username and with the password we have retrieved from the previous level. 
+
+- username: **bandit1**
+- host: **bandit.labs.overthewire.org**
+- port: 2220
+  
+  ![image](https://github.com/user-attachments/assets/b90cb9d0-0edc-4207-a70f-8d5d84c85e68)
+
+
+
 ## **Level Goal**
 The password for the next level is stored in a file called `-` located in the home directory
 
