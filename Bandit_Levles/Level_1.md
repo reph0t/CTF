@@ -1,3 +1,4 @@
-# Level 1
+# LEVEL 1
 
 ## **Level Goal**
+The password for the next level is stored in a file called - located in the home directory
