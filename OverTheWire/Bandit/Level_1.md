@@ -11,7 +11,7 @@ Similar to logging into bandit0 with the credentials provided, we will login int
   ![image](https://github.com/reph0t/CTF/blob/d3e3adf343bb9ad2c64c9fd5cbc03692b14352a4/OverTheWire/Bandit/src/Level_1-1.jpg)
 
 
->[!NOTE]
+>[!IMPORTANT]
 > You will use the same command to login in to different bandit levels; the only difference is to change the username that corresponds to the current level.
 > (e.g., Level 1: bandit1, Level 2, bandit2, etc.)
 
@@ -61,9 +61,9 @@ Here’s what happens:
 ![image](https://github.com/reph0t/CTF/blob/d3e3adf343bb9ad2c64c9fd5cbc03692b14352a4/OverTheWire/Bandit/src/Level_1-3.jpg)
 
 
-**TL;DR**
-- The command cat ./- is the cleaner and more reliable method to read the contents of the file named -.
-- While cat < - works by using input redirection, it's not as clear or commonly used since cat reads from stdin by default when no file is specified.
-- Both methods will display the contents of the file, but the first method (cat ./-) is simpler and clearer for this situation.
+>[!NOTE]
+> - The command cat ./- is the cleaner and more reliable method to read the contents of the file named -.
+> - While cat < - works by using input redirection, it's not as clear or commonly used since cat reads from stdin by default when no file is specified.
+> - Both methods will display the contents of the file, but the first method (cat ./-) is simpler and clearer for this situation.
 
 
