@@ -8,7 +8,7 @@ Similar to logging into bandit0 with the credentials provided, we will login int
 - host: **bandit.labs.overthewire.org**
 - port: 2220
   
-  ![image](https://github.com/user-attachments/assets/b90cb9d0-0edc-4207-a70f-8d5d84c85e68)
+  ![image](https://github.com/reph0t/CTF/blob/d3e3adf343bb9ad2c64c9fd5cbc03692b14352a4/OverTheWire/Bandit/src/Level_1-1.jpg)
 
 
 >[!NOTE]
@@ -43,7 +43,7 @@ Here’s why this works:
 
 Executing this command will reveal the password for the next level.
 
-![image](https://github.com/user-attachments/assets/988e667c-b480-47ea-af8f-46695660a277)
+![image](https://github.com/reph0t/CTF/blob/d3e3adf343bb9ad2c64c9fd5cbc03692b14352a4/OverTheWire/Bandit/src/Level_1-2.jpg)
 
 **Another Approach**
 
@@ -58,7 +58,7 @@ Here’s what happens:
 - cat < - is telling cat to read input from the file named - via input redirection.
 - However, this approach is less common and potentially confusing because cat already reads from stdin by default when no file is specified. Additionally, in more complex cases, input redirection with a file named - can lead to confusion since the dash is often interpreted as stdin.
 
-![image](https://github.com/user-attachments/assets/6f4f5e92-6d3e-4084-8e26-024f5f946db8)
+![image](https://github.com/reph0t/CTF/blob/d3e3adf343bb9ad2c64c9fd5cbc03692b14352a4/OverTheWire/Bandit/src/Level_1-3.jpg)
 
 
 **TL;DR**
