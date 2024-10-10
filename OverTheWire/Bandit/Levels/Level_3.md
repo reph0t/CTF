@@ -27,7 +27,8 @@ To change into the `inhere` directory, we use:
 > [!TIP]
 > You can confirm that you have successfully changed directories by using the `pwd` ("print working directory") command,
 > which displays your current location.
-> ![IMAGE](https://github.com/reph0t/CTF/blob/e1c83422d19519929057dfa5b93c81c4e328ead7/OverTheWire/Bandit/src/Level_3-5.jpg)
+
+![IMAGE](https://github.com/reph0t/CTF/blob/e1c83422d19519929057dfa5b93c81c4e328ead7/OverTheWire/Bandit/src/Level_3-5.jpg)
 
 **Step 3**: Locating Hidden Files
 
