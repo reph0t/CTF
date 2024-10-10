@@ -11,6 +11,9 @@ Similar to logging into bandit0 with the credentials provided, we will login int
   ![image](https://github.com/user-attachments/assets/b90cb9d0-0edc-4207-a70f-8d5d84c85e68)
 
 
+>[!NOTE]
+> You will use the same command to login in to different bandit levels, but only difference is to change the username that corresponds to the current level.
+> (e.g., Level 1: bandit1, Level 2, bandit2
 
 ## **Level Goal**
 The password for the next level is stored in a file called `-` located in the home directory
