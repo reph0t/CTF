@@ -37,7 +37,7 @@ COMMAND:
 ```ssh -p 2220 bandit0@bandit.labs.overthewire.org```
 
 - `ssh`: This initiate the secure connection
-- `-p 2220'`: This specifies port 2220, which is the port used by the Bandit game server
+- `-p 2220`: This specifies port 2220, which is the port used by the Bandit game server
 - `bandit0@bandit.labs.overthewire.org`: This is the username(`bandit0`) and the
   host (`badnti.labs.overthewire.org`) to which we want to connect
 
