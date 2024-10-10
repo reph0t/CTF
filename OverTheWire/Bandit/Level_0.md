@@ -43,7 +43,7 @@ COMMAND:
 
 When prompted, enter the password `bandit0` as shown below:
 
-![image](OverTheWire/Bandit/src/Level_0-1.jpg)
+![image](https://github.com/reph0t/CTF/blob/6049c08bd25a6f44a2455e165f65faa257d1a08c/OverTheWire/Bandit/src/Level_0-1.jpg)
 
 
 ![image](OverTheWire/Bandit/src/Level_0-2.jpg)
