@@ -46,12 +46,10 @@ When prompted, enter the password `bandit0` as shown below:
 ![image](https://github.com/reph0t/CTF/blob/6049c08bd25a6f44a2455e165f65faa257d1a08c/OverTheWire/Bandit/src/Level_0-1.jpg)
 
 
-![image](OverTheWire/Bandit/src/Level_0-2.jpg)
-
 After entering the correct password, you will be logged into the Bandit server, where you'll 
 see a welcome message and some rules regarding this level:
 
-![image](OverTheWire/Bandit/src/Level_0-3.jpg)
+![image](https://github.com/reph0t/CTF/blob/136b3497db3ad60540a702e1830a6d45f44e853d/OverTheWire/Bandit/src/Level_0-2.jpg)
 
 
 ### **Login Confrimation**
@@ -107,7 +105,7 @@ Use the `ls` command to see what’s inside the current directory (your home dir
 
 This will list all the files and directories in your current location.
 
-![image](https://github.com/user-attachments/assets/b422051c-4c37-4290-93f9-eada5e9b40a5)
+![image](https://github.com/reph0t/CTF/blob/136b3497db3ad60540a702e1830a6d45f44e853d/OverTheWire/Bandit/src/Level_0-5.jpg)
 
 As you can see, there is indeed a file named `readme`.
 
@@ -119,7 +117,7 @@ Now that we've confirmed the `readme` file is present, we can use the `cat` comm
 
 This will output the content of the file, including the password for the next level.
 
-![image](https://github.com/user-attachments/assets/a0b5d096-d9c9-4392-8df9-c3ed8dab45d1)
+![image](https://github.com/reph0t/CTF/blob/136b3497db3ad60540a702e1830a6d45f44e853d/OverTheWire/Bandit/src/Level_0-6.jpg)
 
 Congratulations! You now have the password for **Bandit1**.
 
