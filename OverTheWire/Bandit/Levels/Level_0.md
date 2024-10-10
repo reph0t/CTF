@@ -29,9 +29,9 @@ On the Level Goal we are already give the creadentials needed to connect to the 
 - Host: **bandit.labs.overthewire.org**
 - Port: **2220**
 
-Its all of a matter putting everything together as a command
+Its all of a matter putting everything together as a command.
 
-we are going to user method, `-p` to enter the specific port we want to connect to the server. 
+We are going to use method, `-p` to enter the specific port we want to connect to the server. 
 
 COMMAND:
 ```ssh -p 2220 bandit0@bandit.labs.overthewire.org```
