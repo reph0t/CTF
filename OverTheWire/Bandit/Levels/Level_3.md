@@ -40,7 +40,7 @@ After running the command, you’ll see a file named `...Hiding-From-You`. This 
 
 ![IMAGE](https://github.com/reph0t/CTF/blob/e1c83422d19519929057dfa5b93c81c4e328ead7/OverTheWire/Bandit/src/Level_3-4.jpg)
 
-Congratulations! You’ve successfully found the password and completed this level.
+Congratulations! You’ve successfully found the password and completed this level. 👍
 
 
 
