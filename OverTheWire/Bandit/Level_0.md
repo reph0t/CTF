@@ -57,10 +57,10 @@ see a welcome message and some rules regarding this level:
 To confirm that we have logged in succesfully we can use commands `whoami` and `hostname` 
 to verify our current username and hostname we are connected to:
 
-![image](https://github.com/user-attachments/assets/b629292e-b423-41eb-9be0-2c9a579fb70b)
+![image](https://github.com/reph0t/CTF/blob/5b0e2d3225de18184af8ac43a293683d71028daa/OverTheWire/Bandit/src/Level_0-3.jpg)
 
 
-![image](https://github.com/user-attachments/assets/1f376907-10d4-4331-802a-d5003034a1bd)
+![image](https://github.com/reph0t/CTF/blob/5b0e2d3225de18184af8ac43a293683d71028daa/OverTheWire/Bandit/src/Level_0-4.jpg)
 
 
 This is a confirmation that we have succeded and connecting the bandit host. 
