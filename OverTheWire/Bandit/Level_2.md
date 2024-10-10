@@ -25,7 +25,7 @@ One of the easiest ways to handle spaces in filenames is by wrapping the filenam
 
 Executing this command will output the contents of the file, which contains the password for the next level.
 
-![image](https://github.com/user-attachments/assets/f8a94179-a0ad-4a29-94f5-7cdf626ad175)
+![image](https://github.com/reph0t/CTF/blob/e0387123ca4bacd8ae5f4584b431dfd336429ba4/OverTheWire/Bandit/src/Level_2-1.jpg)
 
 
 
