@@ -43,15 +43,15 @@ COMMAND:
 
 When prompted, enter the password `bandit0` as shown below:
 
-![image](https://github.com/user-attachments/assets/0bed7279-64b1-4fcb-9460-c75d48cc33ca)
+![image](OverTheWire/Bandit/src/Level_0-1.jpg)
 
 
-![image](https://github.com/user-attachments/assets/558fd9bb-fb4d-40ea-a00a-7c0f93c149ad)
+![image](OverTheWire/Bandit/src/Level_0-2.jpg)
 
 After entering the correct password, you will be logged into the Bandit server, where you'll 
 see a welcome message and some rules regarding this level:
 
-![image](https://github.com/user-attachments/assets/21118bd9-0d06-4035-8c99-70e81c14449b)
+![image](OverTheWire/Bandit/src/Level_0-3.jpg)
 
 
 ### **Login Confrimation**
