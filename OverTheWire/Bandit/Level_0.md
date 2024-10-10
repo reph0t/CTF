@@ -82,7 +82,9 @@ Before we proceed, it’s helpful to understand the file system we’re navigati
 
 When you run a command like ls (which lists files and directories), you’ll see important files and directories that are part of the system's structure. These files allow the system to run various applications and boot correctly.
 
-For beginner users, it’s important not to modify or delete these native files unless you fully understand what you’re doing, as they can be crucial for system operation. Every technology relies on a file system as a reference to execute commands and manage operations.
+> [!CAUTION]
+> For beginner users, it’s important **NOT** to modify or delete these native files unless you fully understand what you’re doing, as they can be crucial for system operation. Every technology relies on a file system as a reference to execute commands and manage operations.
+
 
 ## **WALKTHROUGH**
 
