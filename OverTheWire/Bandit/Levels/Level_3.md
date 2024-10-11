@@ -32,7 +32,7 @@ To change into the `inhere` directory, we use:
 
 **Step 3**: Locating Hidden Files
 
-Once inside the `inhere` directory, running ls will not show any files because the target file is hidden. To reveal hidden files, we need to use the `ls -a` command, which lists all files, including hidden ones.
+Once inside the `inhere` directory, running `ls` will not show any files because the target file is hidden. To reveal hidden files, we need to use the `ls -a` command, which lists all files, including hidden ones.
 
 ![IMAGE](https://github.com/reph0t/CTF/blob/e1c83422d19519929057dfa5b93c81c4e328ead7/OverTheWire/Bandit/src/Level_3-3.jpg)
 
