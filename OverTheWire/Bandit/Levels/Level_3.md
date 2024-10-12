@@ -12,13 +12,13 @@ Commands you may need to solve this level
 
 With the goal in mind, we know that the password is hidden in the inhere directory. To start, we need to locate and navigate to this directory using the `ls` and `cd` commands.
 
-**Step 1**: Listing the Contents of the Current Directory
+**Step 1: Listing the Contents of the Current Directory**
 
 ![IMAGE](https://github.com/reph0t/CTF/blob/f7d85e3cb51c4f97836d204101cd4d23e58945d2/OverTheWire/Bandit/src/Level_3-1.jpg)
 
 We can see the inhere directory. Now, we will navigate into it using the `cd` command.
 
-**Step 2**: Changing to the inhere Directory
+**Step 2: Changing to the inhere Directory**
 
 To change into the `inhere` directory, we use:
 
@@ -30,7 +30,7 @@ To change into the `inhere` directory, we use:
 
 ![IMAGE](https://github.com/reph0t/CTF/blob/e1c83422d19519929057dfa5b93c81c4e328ead7/OverTheWire/Bandit/src/Level_3-5.jpg)
 
-**Step 3**: Locating Hidden Files
+**Step 3: Locating Hidden Files**
 
 Once inside the `inhere` directory, running `ls` will not show any files because the target file is hidden. To reveal hidden files, we need to use the `ls -a` command, which lists all files, including hidden ones.
 
