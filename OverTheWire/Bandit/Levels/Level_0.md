@@ -78,7 +78,7 @@ The password for the next level is stored in a file called readme located in the
 
 Before we proceed, it’s helpful to understand the file system we’re navigating. If you've used your system’s terminal before, you’ll recognize that the server has a file hierarchy system (which can vary slightly based on the operating system).
 
-> [!INFO]
+> [!NOTE]
 > You can read more information about the file hierarchy by entering `man file-hierarchy`.
 
 When you run a command like ls (which lists files and directories), you’ll see important files and directories that are part of the system's structure. These files allow the system to run various applications and boot correctly.
