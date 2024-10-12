@@ -1,4 +1,4 @@
-# LEVEL 4
+# LEVEL 4 - Finding the File
 
 ## Level Goal
 
@@ -22,11 +22,16 @@ If `inhere` is present, change into that directory:
 
 `cd inhere`
 
+
+![IMAGE](https://github.com/reph0t/CTF/blob/17d8a3f5675ed177f9d02d858c0e2e676c1619e0/OverTheWire/Bandit/src/Level_4-1.jpg)
+
 ### Step 2: List the Files in inhere
 
 Once inside the inhere directory, list the contents to see what files are there:
 
 `ls`
+
+![IMAGE](https://github.com/reph0t/CTF/blob/17d8a3f5675ed177f9d02d858c0e2e676c1619e0/OverTheWire/Bandit/src/Level_4-2.jpg)
 
 You’ll notice there are 10 files. According to the instructions, the password is stored in the only human-readable file in this directory.
 
@@ -38,6 +43,8 @@ Here’s where the `file` command comes in handy. It tells us the type of each f
 
 `file ./*`
 
+![IMAGE](https://github.com/reph0t/CTF/blob/17d8a3f5675ed177f9d02d858c0e2e676c1619e0/OverTheWire/Bandit/src/Level_4-3.jpg)
+
 This will return the type of each file in the inhere directory. You’ll notice that most of the files are not human-readable (e.g., binary files), but one of them should be identified as a text file, which is the one we’re looking for.
 
 ### Step 4: Find the Password
@@ -47,6 +54,8 @@ In this case, the `file` command output shows that `-file07` is the only human-r
 `cat ./-file07`
 
 This will display the password for the next level.
+
+![IMAGE](https://github.com/reph0t/CTF/blob/17d8a3f5675ed177f9d02d858c0e2e676c1619e0/OverTheWire/Bandit/src/Level_4-4.jpg)
 
 > [!TIP]
 > If you're unsure about how a command works, you can always refer to the manual pages by typing:
