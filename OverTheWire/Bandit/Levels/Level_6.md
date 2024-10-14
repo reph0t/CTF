@@ -15,7 +15,10 @@ Commands you may need to solve this level
 
 # WALKTHROUGH
 
-Similar to the previous level we are tasked to find a file within the bandit6 server. This should be straight forward since we are given specific details of the kind of file we need to search for. Same as the previous level we are going to use the `find` command to search throughout the server and printing it:
+In this level, our goal is to find a file on the **Bandit6** server with very specific attributes. The file is owned by the user **bandit7**, the group **bandit6**, and it is exactly **33 bytes** in size. Given these details, the find command is the most efficient tool to search for the file across the system and directly print its contents.
+
+
+We can use the find command to search the entire server based on the file’s ownership and size criteria. The command will locate the file and automatically display its contents using the cat command.
 
 `find / -user bandit7 -group bandit6 -size 33c -exec cat {} \; 2>/dev/null`
 
@@ -28,7 +31,9 @@ Similar to the previous level we are tasked to find a file within the bandit6 se
 - `-exec cat {} \;`: Executes the cat command on the file once it's found ({} is a placeholder for the found file). This prints the contents of the file directly.
 - `2>/dev/null`: Suppresses permission errors or other irrelevant output (since some directories may be restricted).
 
+After running the command, the contents of the file that matches the criteria will be printed directly in the terminal. This file will contain the password for the next level.
 
-![IMAGE](https://github.com/reph0t/CTF/blob/609088a5a2f952d41927564d623855e14808b120/OverTheWire/Bandit/src/Level_6-1.jpg)
+
+![IMAGE](https://github.com/reph0t/CTF/blob/591884d2c7f3832809a3b49c5624a311c83b9906/OverTheWire/Bandit/src/Level_6-1.jpg)
 
 
