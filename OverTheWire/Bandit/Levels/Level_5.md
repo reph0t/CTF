@@ -15,5 +15,8 @@ Commands you may need to solve this level
 
 ## WALKTHROUGH
 
+After logging into the Bandit5 server we are tasked to find a file somwhere in `inhere` directory. By going into the directory we notcied there are many directories that may have the flag. 
+
+
 
 
