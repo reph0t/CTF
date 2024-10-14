@@ -62,6 +62,5 @@ This will display the password for the next level.
 > `man <command>`
 > This will give you detailed information about the command and the various options you can use with it.
 
-## Summary
 By using the `file` command, we efficiently identified the human-readable file and retrieved the password without needing to manually check each file.
 This method is far more convenient and scalable when dealing with large directories, which is often the case in real-world scenarios
