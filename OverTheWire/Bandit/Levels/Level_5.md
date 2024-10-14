@@ -30,7 +30,7 @@ To be more effiecint in finding the flag I am going to use `find` to search each
  - `\!` - NOT boolean expression
  - `-executable` - file is executable
 
-> [!info]
+> [!INFO]
 > For more information read the man pages.
 
 By entering the command we are able to locate the file.
