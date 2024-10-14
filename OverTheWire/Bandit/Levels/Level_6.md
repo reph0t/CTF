@@ -28,6 +28,6 @@ Similar to the previous level we are tasked to find a file within the bandit6 se
 - `2>/dev/null`: Suppresses permission errors or other irrelevant output (since some directories may be restricted).
 
 
-
+![IMAGE](https://github.com/reph0t/CTF/blob/609088a5a2f952d41927564d623855e14808b120/OverTheWire/Bandit/src/Level_6-1.jpg)
 
 
