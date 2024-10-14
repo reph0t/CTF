@@ -15,25 +15,48 @@ Commands you may need to solve this level
 
 ## WALKTHROUGH
 
-After logging into the Bandit5 server we are tasked to find a file somwhere in `inhere` directory. By going into the directory we notcied there are many directories that may have the flag. 
+After logging into the Bandit5 server, our task is to find a file that meets specific criteria in the inhere directory. There are many subdirectories inside inhere, which makes searching manually inefficient. Instead, we’ll use the find command to locate the file based on its properties.
+Step 1: Navigate to the inhere Directory
+
+First, let's navigate to the inhere directory using the cd command:
+
+```-bash
+cd inhere
+```
+Once inside, we see that the directory contains multiple subdirectories:
 
 ![IMAGE](https://github.com/reph0t/CTF/blob/cd4802b5dc3c4f35f8524c5b1019218bb14c8ebd/OverTheWire/Bandit/src/Level_5-2.jpg)
 
-To be more effiecint in finding the flag I am going to use `find` to search each directory. Specifically a file that is: human-readable, and has size of 1033 byes, adn is not executable. With these specifications I created this command:
+Step 2: Use the find Command to Search for the File
 
-`find ./* -readable -size 1033c \! -executable`
+Since manually checking each file in every subdirectory is inefficient, we can use the find command to search based on the specific properties provided:
 
-**Breakdown:**
- - `find` - using the find command
- - `./*` - present directory
- - `-size 1033` - specifies the size of the file which is 1033 bytes
- - `\!` - NOT boolean expression
- - `-executable` - file is executable
+- Human-readable
+- Size: 1033 bytes
+- Not executable
 
-> [!NOTE]
-> For more information read the man pages.
+We can use the following find command to efficiently locate the file that meets these criteria:
 
-By entering the command we are able to locate the file.
+```-bash
+find ./* -readable -size 1033c \! -executable
+```
+
+Breakdown of the Command:
+
+- `find`: Invokes the find command to search for files.
+- `./*`: Specifies the current directory and all subdirectories.
+- `-readable`: Searches for files that are human-readable.
+- `-size 1033c`: Searches for files that are exactly 1033 bytes in size.
+- `\!` -executable: Excludes any executable files (the \! is a NOT operator in find).
+
+Step 3: Find the File and Display Its Contents
+
+Running the above find command will locate the file that meets all the conditions. You can then use cat to display the contents of the file, which contains the password for the next level.
 
 ![IMAGE](https://github.com/reph0t/CTF/blob/49754b3c0f25ac95bc92d56865f494c72f3723bf/OverTheWire/Bandit/src/Level_5-5.jpg)
 
+> [!TIP]
+> If you need more information on how the find command works or any other command, you can always refer to the manual pages by typing:
+
+
+Using this method, we efficiently located the human-readable file with the correct size, avoiding the need to manually inspect each file.
