@@ -40,7 +40,7 @@ To find the password, we need to identify the line in data.txt that appears only
 **Command Breakdown:**
 
 - `sort data.txt`: This command sorts the lines in data.txt, arranging identical lines next to each other. This makes it easier for uniq to identify duplicates.
-- `|` (Pipe): The pipe takes the sorted output and feeds it as input to the next command.
+- `| (Pipe)`: The pipe takes the sorted output and feeds it as input to the next command.
 - `uniq -u`: This command filters out all the lines that appear more than once, leaving only the unique lines.
 
 **Result:**
