@@ -37,13 +37,13 @@ To find the password, we need to identify the line in data.txt that appears only
 
 `sort data.txt | uniq -u`
 
-Command Breakdown:
+**Command Breakdown:**
 
 - `sort data.txt`: This command sorts the lines in data.txt, arranging identical lines next to each other. This makes it easier for uniq to identify duplicates.
 - `|` (Pipe): The pipe takes the sorted output and feeds it as input to the next command.
 - `uniq -u`: This command filters out all the lines that appear more than once, leaving only the unique lines.
 
-Result:
+**Result:**
 
 ![IMAGE](https://github.com/reph0t/CTF/blob/addc6da22ec9c8eba31e33adb84bfd5dce753cc1/OverTheWire/Bandit/src/Level_8-1.png)
 
