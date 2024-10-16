@@ -45,6 +45,7 @@ Command Breakdown:
 
 Result:
 
+![IMAGE](https://github.com/reph0t/CTF/blob/addc6da22ec9c8eba31e33adb84bfd5dce753cc1/OverTheWire/Bandit/src/Level_8-1.png)
 
 
 By running the command, you will see the output of the line that occurs only once, which contains the password for the next level.
