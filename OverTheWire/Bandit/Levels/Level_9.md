@@ -24,6 +24,8 @@ Run the following command:
 
 **Result**:
 
+![IMAGE](https://github.com/reph0t/CTF/blob/e937f7aa1492d3228e7a0130e45376a4be648835/OverTheWire/Bandit/src/Level_9-1.png)
+
 By running this command, you will be able to identify the string containing the password, as it will be preceded by = characters.
 
 
