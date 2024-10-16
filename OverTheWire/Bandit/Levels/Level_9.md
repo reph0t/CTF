@@ -16,7 +16,7 @@ Run the following command:
 
 `strings data.txt | grep "="`
 
-**Breakdown**:
+**Command Breakdown**:
 
 - `strings data.txt`: This command scans data.txt and extracts all sequences of printable characters. It helps filter out binary data, leaving only human-readable text.
 - `| (Pipe)`: The pipe sends the output from strings as input to the next command.
