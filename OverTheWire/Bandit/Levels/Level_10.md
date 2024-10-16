@@ -31,3 +31,5 @@ Use the following command to decode the contents of `data.txt` and display it on
 
 After running the command, the decoded output will be displayed, revealing the password for the next level.
 
+![IMAGE](https://github.com/reph0t/CTF/blob/27741e4d846b12fda6e7117d11b7d19910abb4a6/OverTheWire/Bandit/src/Level_10-1.png)
+
