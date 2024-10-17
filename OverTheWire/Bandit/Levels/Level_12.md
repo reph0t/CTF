@@ -120,7 +120,7 @@ We continue to rename the file `data2` ▶️ `data3.bz` after it will decompres
 
 Once all the compression layers have been removed and the file is in a readable format, you’ll be able to open the file and retrieve the password for the next level:
 
-`cata data9`
+`cat data9`
 
 ![IMAGE](https://github.com/reph0t/CTF/blob/d17a7d7e6cddbbb8073ebfa3fa50edf30914811a/OverTheWire/Bandit/src/Level_12-10.png)
 
