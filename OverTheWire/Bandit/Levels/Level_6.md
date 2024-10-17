@@ -1,6 +1,6 @@
 # LEVEL 6
 
-# Level Goal 
+### Level Goal 
 
 The password for the next level is stored somewhere on the server and has all of the following properties:
 
@@ -8,7 +8,7 @@ The password for the next level is stored somewhere on the server and has all of
 - owned by group bandit6
 - 33 bytes in size
 
-Commands you may need to solve this level
+#### Commands you may need to solve this level
 
 `ls , cd , cat , file , du , find , grep`
 
