@@ -32,7 +32,7 @@ Command Breakdown:
 
 - `cat data.txt`: This command prints the contents of data.txt, which is currently encoded using ROT13.
 - `| (Pipe)`: The pipe (|) sends the output from cat as input to the tr command.
-- [`tr 'A-Za-z'] ['N-ZA-Mn-za-m']`:
+- `tr ['A-Za-z'] ['N-ZA-Mn-za-m']`:
    - The `tr` command translates characters.
    - `'A-Za-z'` specifies the range of uppercase (`A-Z`) and lowercase (`a-z`) letters.
    - `'N-ZA-Mn-za-m'` specifies the corresponding ROT13-translated letters, where each letter is shifted by 13 positions.
