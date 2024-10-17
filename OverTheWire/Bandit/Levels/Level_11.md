@@ -21,6 +21,8 @@ Since there are 26 letters in the alphabet, applying ROT13 twice brings the orig
 
 In this level, the password is hidden in the file `data.txt`, but it has been encoded using ROT13. If we print the contents of the file, it will look like a scrambled, unreadable message. To decode it, we need to apply the ROT13 transformation using the tr (translate) command.
 
+![IMAGE](https://github.com/reph0t/CTF/blob/3561ee7e09e09ebe67689def47cc0d8f26260442/OverTheWire/Bandit/src/Level_11-2.png)
+
 
 To decode the ROT13 cipher and retrieve the password, run the following command:
 
