@@ -48,7 +48,8 @@ Next, we need to copy `data.txt` from the current working directory into the new
 ![IMAGE](https://github.com/reph0t/CTF/blob/b8efb1e3d34f8e3010c3454f1cd3b97454c468cf/OverTheWire/Bandit/src/Level_12-3.png)
 
 
-This command copies the file data.txt into the /tmp/usr0/ directory.
+> [!NOTE]
+> This command copies the file data.txt into the /tmp/usr0/ directory.
 
 ### **Step 3: Reverse the Hex Dump**
 
@@ -73,7 +74,8 @@ Use the file command to determine the file type of the newly created binary file
 
 ![IMAGE](https://github.com/reph0t/CTF/blob/b8efb1e3d34f8e3010c3454f1cd3b97454c468cf/OverTheWire/Bandit/src/Level_11-5.png)
 
-This will likely reveal that the file is compressed, such as a **gzip** file.
+> [!NOTE]
+> This will likely reveal that the file is compressed, such as a **gzip** file.
 
 ### **Step 5: Decompress the File**
 
@@ -96,7 +98,8 @@ We then use the `file` command:
 
 ![IMAGE](https://github.com/reph0t/CTF/blob/d17a7d7e6cddbbb8073ebfa3fa50edf30914811a/OverTheWire/Bandit/src/Level_12-7.png)
 
-This will verify the format of the file. 
+>[!NOTE]
+>This will verify the format of the file. 
 
 ### **Step 6: Repeat the Process for Other Compressions**
 
