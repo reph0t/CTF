@@ -26,7 +26,7 @@ In this level, the password is hidden in the file `data.txt`, but it has been en
 
 To decode the ROT13 cipher and retrieve the password, run the following command:
 
-`cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'`
+`cat data.txt | tr ['A-Za-z'] ['N-ZA-Mn-za-m']`
 
 Command Breakdown:
 
