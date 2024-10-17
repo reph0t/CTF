@@ -39,5 +39,7 @@ Command Breakdown:
 
 Once you run the above command, it will output the decoded text, revealing the password for the next level.
 
+![IMAGE](https://github.com/reph0t/CTF/blob/030cc21ccc653808be96f537d19c911e30522862/OverTheWire/Bandit/src/Level_11-1.png)
+
 
 
