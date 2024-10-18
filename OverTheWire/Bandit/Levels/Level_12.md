@@ -55,7 +55,7 @@ Next, we need to copy `data.txt` from the current working directory into the new
 
 Now that we’ve copied the file, change into the directory and start by reversing the hex dump back into binary data:
 
-`cata data.txt | xxd -r > data`
+`cat data.txt | xxd -r > data`
 
 ![IMAGE](https://github.com/reph0t/CTF/blob/b8efb1e3d34f8e3010c3454f1cd3b97454c468cf/OverTheWire/Bandit/src/Level_12-4.png)
 
