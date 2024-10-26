@@ -6,6 +6,8 @@ The password for the next level is stored in /etc/bandit_pass/bandit14 and can o
 Commands you may need to solve this level
 `ssh, telnet, nc, openssl, s_client, nmap`
 
+
+
 ### Walkthrough 
 
 
