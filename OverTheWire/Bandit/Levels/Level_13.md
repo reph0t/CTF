@@ -12,9 +12,14 @@ Commands you may need to solve this level
 
 In this level, the flag is located on a different server, and we’ll need to use a private SSH key to gain access. The private key file is located in the current working directory.
 
+![IMAGE](https://github.com/reph0t/CTF/blob/e7035ff0959861323d0f2cb5a978f3f91092daa3/OverTheWire/Bandit/src/Level_13-2.png)
+
+
 We’ll use this private key to log in to the bandit14 server with the following command:
 
 `ssh -i sshkey.private -p 2220 bandit14@localhost`
+
+![IMAGE](https://github.com/reph0t/CTF/blob/e7035ff0959861323d0f2cb5a978f3f91092daa3/OverTheWire/Bandit/src/Level_13-3.png)
 
 **Command Breakdown:**
 
@@ -27,5 +32,7 @@ We’ll use this private key to log in to the bandit14 server with the following
 Once logged in, we can locate the flag in the file `/etc/bandit_pass/bandit14`, as directed. Use the following command to display the contents of the file:
 
 `cat /etc/bandit_pass/bandit14`
+
+![IMAGE](https://github.com/reph0t/CTF/blob/e7035ff0959861323d0f2cb5a978f3f91092daa3/OverTheWire/Bandit/src/Level_13-1.png)
 
 This will reveal the password for the next level, allowing you to proceed.
