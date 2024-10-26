@@ -6,6 +6,16 @@ The password for the next level is stored in /etc/bandit_pass/bandit14 and can o
 Commands you may need to solve this level
 `ssh, telnet, nc, openssl, s_client, nmap`
 
+### Public and Private Keys 
+Key-based authentication is considered the most secure method of authentication available with OpenSSH, offering several advantages over password-based authentication. Unlike passwords, the key values are significantly more difficult to brute force, or guess than plain passwords, provide an ample key strength. Other authentication methods are only used in very specific situations. 
+
+Key-based authentication uses two keys:
+
+- A public key, which can be shared openly.
+- A private key, which should be kept secure and known only to its owner.
+
+To securely use key-based authentication, one must first generate a key pair. The private key is securely stored on the device you’re logging in from, while the public key is placed on the device you want to access. This setup allows for secure, password-free SSH logins.
+Using key based logins with ssh is generally considered more secure than using plain password logins. 
 
 
 ### Walkthrough 
