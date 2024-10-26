@@ -10,23 +10,22 @@ Commands you may need to solve this level
 
 ### Walkthrough 
 
-In this level the flag is located in another server, so in order to gain access to it, we must use a private ssh key using `ssh`. THe private key is located withing our current working directory. 
+In this level, the flag is located on a different server, and we’ll need to use a private SSH key to gain access. The private key file is located in the current working directory.
+
+We’ll use this private key to log in to the bandit14 server with the following command:
+
+`ssh -i sshkey.private -p 2220 bandit14@localhost`
+
+**Command Breakdown:**
+
+- `ssh`: Initiates a secure connection to a remote server.
+- `-i sshkey.private`: Specifies the private key file to use for authentication.
+- `-p 2220`: Connects through port 2220, as specified for this level.
+- `bandit14@localhost`: Logs in as the `bandit14` user on the `localhost` server.
 
 
-We will use this private file to gain access to the bandit14 server. We will use this command: 
-
-ssh -i sshkey.private -p 2220 bandit14@localhost
-
-**Command Breakdown**
-
-- `ssh`: establish a secure connection on a remote machine
-- `-i sshkey.private`: selects the private key file
-- `-p 2220`: specifies port 2220
-- `bandit14@localhost`: establishing the username to login into `localhost`
-
-
-Now that we managed to login into the server it has been indicated that the file is located in `/etc/bandit_pass/bandit14`. By entering this command we managed to retirieve the flag for the next level. 
+Once logged in, we can locate the flag in the file `/etc/bandit_pass/bandit14`, as directed. Use the following command to display the contents of the file:
 
 `cat /etc/bandit_pass/bandit14`
 
-
+This will reveal the password for the next level, allowing you to proceed.
