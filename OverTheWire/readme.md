@@ -1,5 +1,5 @@
 # **OverTheWire**
-OverTheWire is a website containg games where it provides educational resources to anyone willing to learn topics of CyberSecurity. The OverTheWire community hosts 
+OverTheWire is a website containing games where it provides educational resources to anyone willing to learn topics of CyberSecurity. The OverTheWire community hosts 
 resources free of charge for players to use and learn from. 
 
 >[!NOTE]
