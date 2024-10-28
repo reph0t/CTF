@@ -22,5 +22,5 @@ Once you enter the command, you will see a prompt indicating you’ve connected 
 
 Upon entering the password, you’ll receive the flag for the next level.
 
-
+![IMAGE](https://github.com/reph0t/CTF/blob/d57c1a30abb2054550cf1a7ac15e047870faee51/OverTheWire/Bandit/src/Level_14-1.png)
 
