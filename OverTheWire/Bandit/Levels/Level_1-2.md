@@ -1,6 +1,6 @@
 # LEVEL 1 → 2
 
-# Logging into Bandit1
+## Logging into Bandit1
 
 Similar to logging into bandit0 with the credentials provided, we will login into bandit1 as the username and with the password we have retrieved from the previous level. 
 
@@ -15,7 +15,7 @@ Similar to logging into bandit0 with the credentials provided, we will login int
 > You will use the same command to login in to different bandit levels; the only difference is to change the username that corresponds to the current level.
 > (e.g., Level 1: bandit1, Level 2, bandit2, etc.)
 
-## **Level Goal**
+### **Level Goal**
 The password for the next level is stored in a file called `-` located in the home directory
 
 **Commands you may need to solve this level**
