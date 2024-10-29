@@ -1,4 +1,4 @@
-# LEVEL 1
+# LEVEL 1 → 2
 
 # Logging into Bandit1
 
