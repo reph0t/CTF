@@ -1,4 +1,4 @@
-# LEVEL 5
+# LEVEL 5 → 6
 
 ### Level Goal
 
