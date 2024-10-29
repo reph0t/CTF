@@ -1,4 +1,4 @@
-# **LEVEL 0 & 0 → 1**
+# **LEVEL 0**
 
 ## Part 1 - Logging In
 
