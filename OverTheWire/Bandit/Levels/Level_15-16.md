@@ -35,17 +35,34 @@ Helpful note: Getting `“DONE”`, `“RENEGOTIATING”` or `“KEYUPDATE”`? 
 **Why TLS/SSL is Important:**
 TLS/SSL is essential for protecting sensitive data and maintaining trust in online transactions. Websites using TLS/SSL are identified by https:// in their URL and often display a padlock icon in the browser, indicating that the connection is secure.
 
-### Walkthrough
+## Walkthrough
 
-It is hinted that in order to retrieve the flag for the next level we must use SSL/TLS encryption to connect to the local server on port `30001`. So let's enter the command below:
-
+It’s hinted that to retrieve the flag for the next level, we need to use SSL/TLS encryption to connect securely to the local server on port `30001`. Let’s use the following command to establish this connection:
 `openssl s_client -connect localhost:30001`
+
+![IMAGE](https://github.com/reph0t/CTF/blob/f2732dde7accc71330791e6f5bdb267c09d6b71f/OverTheWire/Bandit/src/Level_15-1.png)
+
 
 **Command Breakdown:**
 
-- `openssl`: 
-- `s_client`
-- `-connect`
-- `localhost`
-- `30001`
+- `openssl`: The OpenSSL command-line tool, which provised various crpytopgraphic functions.
+- `s_client`: A tool within OpenSSL that initiates SSL/TLS connections to servers, useful for testing and troubleshooting
+- `-connect` Specifies the target server and port to connect to.
+- `localhost:30001`: Specifies the server (`localhost`) and the SSL-enabled port (`30001`) to connect to
+
+
+After running the command, we’re connected to the local server over SSL/TLS. The server responds with an encrypted certificate, indicating it’s ready for secure communication and is awaiting user input.
+
+![IMAGE](https://github.com/reph0t/CTF/blob/f2732dde7accc71330791e6f5bdb267c09d6b71f/OverTheWire/Bandit/src/Level_15-2.png)
+
+Once connected, enter the current flag (password) to authenticate and retrieve the new flag for the next level.
+
+![IMAGE](https://github.com/reph0t/CTF/blob/f2732dde7accc71330791e6f5bdb267c09d6b71f/OverTheWire/Bandit/src/Level_15-3.png)
+
+This will display the new flag, allowing you to proceed to the next level.
+
+
+
+
+
 
