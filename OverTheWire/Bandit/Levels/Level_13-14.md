@@ -18,7 +18,7 @@ To securely use key-based authentication, one must first generate a key pair. Th
 Using key based logins with ssh is generally considered more secure than using plain password logins. 
 
 
-### Walkthrough 
+### WALKTHROUGH 
 
 In this level, the flag is located on a different server, and we’ll need to use a private SSH key to gain access. The private key file is located in the current working directory.
 
