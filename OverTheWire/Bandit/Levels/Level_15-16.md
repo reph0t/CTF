@@ -35,7 +35,7 @@ Helpful note: Getting `“DONE”`, `“RENEGOTIATING”` or `“KEYUPDATE”`? 
 **Why TLS/SSL is Important:**
 TLS/SSL is essential for protecting sensitive data and maintaining trust in online transactions. Websites using TLS/SSL are identified by https:// in their URL and often display a padlock icon in the browser, indicating that the connection is secure.
 
-## Walkthrough
+## WALKTHROUGH
 
 It’s hinted that to retrieve the flag for the next level, we need to use SSL/TLS encryption to connect securely to the local server on port `30001`. Let’s use the following command to establish this connection:
 `openssl s_client -connect localhost:30001`
