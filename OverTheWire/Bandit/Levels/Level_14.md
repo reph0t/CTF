@@ -1,4 +1,4 @@
-# LEVEL 14
+# LEVEL 14 → 15
 
 ### Level Goal 
 The password for the next level can be retrieved by submitting the password of the current level to port 30000 on localhost.
@@ -6,7 +6,7 @@ The password for the next level can be retrieved by submitting the password of t
 #### Commands you may need to solve this level
 `ssh, telnet, nc, openssl, s_client, nmap`
 
-### Walkthrough 
+### WALKTHROUGH 
 
 This level is straightforward. We simply need to connect to a specific port on the local server using the `telnet` command:
 
