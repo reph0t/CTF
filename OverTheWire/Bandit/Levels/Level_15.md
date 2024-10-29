@@ -37,6 +37,15 @@ TLS/SSL is essential for protecting sensitive data and maintaining trust in onli
 
 ### Walkthrough
 
-It is hinted that in order to retrieve the flag for the next level we must use SSL/TLS encryption to connect to the local server on port `30001`
+It is hinted that in order to retrieve the flag for the next level we must use SSL/TLS encryption to connect to the local server on port `30001`. So let's enter the command below:
 
+`openssl s_client -connect localhost:30001`
+
+**Command Breakdown:**
+
+- `openssl`: 
+- `s_client`
+- `-connect`
+- `localhost`
+- `30001`
 
