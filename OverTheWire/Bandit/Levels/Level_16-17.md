@@ -1,7 +1,8 @@
 # LEVEL 16 → 17
 
 >[!Important]
-> Username: `bandit`
+> Username: `bandit16`
+>
 > Password: ``
 
 ### Level Goal
