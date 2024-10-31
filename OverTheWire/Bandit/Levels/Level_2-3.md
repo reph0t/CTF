@@ -1,6 +1,7 @@
 # LEVEL 2 → 3
 >[!Important]
 > Username: `bandit2`
+>
 > Password: `263JGJPfgU6LtdEvgfWU1XP5yac29mFx`
 
 ### Level Goal
