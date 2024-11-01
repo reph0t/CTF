@@ -27,24 +27,25 @@ Since we need to identify the SSL port within a specific range, we’ll use nmap
 
 `nmap -sV -p 31000-32000 localhost`
 
-![IMAGE]()
+![IMAGE](https://github.com/reph0t/CTF/blob/691422a730be4122794ef821008cfb1ce9df5e4e/OverTheWire/Bandit/src/Level_16-1.png)
 
 This command scans the specified range (`31000-32000`) on `localhost` and checks for services running on each open port.
 
 After a few moments, nmap provides a list of open ports and their associated protocols. Among the results, we find that port 31790 is associated with SSL. We can now use this information to connect to the server using the openssl s_client command:
 
-
 `openssl s_client -connect -quiet localhost:31790`
 
-![IMAGE]()
+![IMAGE](https://github.com/reph0t/CTF/blob/691422a730be4122794ef821008cfb1ce9df5e4e/OverTheWire/Bandit/src/Level_16-2.png)
 
 Upon connecting, the server prompts us to enter input. Here, it’s waiting for the current password we used to access bandit16. Entering this password allows us to proceed and retrieve a new certificate, which contains a private key.
 
-IMAGE HERE!
+![IMAGE](https://github.com/reph0t/CTF/blob/691422a730be4122794ef821008cfb1ce9df5e4e/OverTheWire/Bandit/src/Level_16-3.png)
 
 The server provides a certificate that we’ll use as a private key. This process is similar to the one we used in bandit13-14 for SSH key-based authentication. Follow these steps to set up and secure the key:
 
-  1. Save the Private Key: Copy the certificate output and save it as a file (e.g., private.key) in the `/tmp/<directory_you_created>` directory.
+  1. Save the Private Key: Copy the certificate output and use `nano` to save it as a file (e.g., private.key) in the `/tmp/<directory_you_created>` directory.
+
+![IMAGE](https://github.com/reph0t/CTF/blob/691422a730be4122794ef821008cfb1ce9df5e4e/OverTheWire/Bandit/src/Level_16-4.png) 
 
   2. Set Permissions: To secure the private key, use `chmod 400` to restrict its permissions. This makes the key readable only by the file owner, which is required for secure SSH connections.
 
@@ -55,12 +56,12 @@ The server provides a certificate that we’ll use as a private key. This proces
 
 With the private key saved and permissions set, use the `ssh` command to log in to `bandit17`:
 
-
 `ssh -p 2220 -i private.key bandit17@localhost`
 
-![IMAGE]()
+![IMAGE](https://github.com/reph0t/CTF/blob/691422a730be4122794ef821008cfb1ce9df5e4e/OverTheWire/Bandit/src/Level_16-5.png)
+
 Once connected to `bandit17`, we can retrieve the flag by viewing the contents of the password file:
 
 `cat /etc/bandit_pass/bandit17`
 
-![IMAGE]()
+![IMAGE](https://github.com/reph0t/CTF/blob/691422a730be4122794ef821008cfb1ce9df5e4e/OverTheWire/Bandit/src/Level_16-6.png)
