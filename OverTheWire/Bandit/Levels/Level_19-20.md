@@ -35,13 +35,17 @@ Key Points of Setuid:
    - Limited Use: Setuid should only be applied when absolutely necessary, and files with setuid should be carefully audited.
 
 >[!NOTE]
-> Basically SUID is what gives permission or changes the mode of a restricted file/directory that allows the current user or group to act as another user. 
+> SUID (Set User ID) is a special permission that allows a user to execute a file with the permissions of the file's owner. This grants temporary elevated privileges, enabling the current user to perform actions as another user (often root) while executing the file.
 
 ### WALKTHROUGH
 
-In order to retieve the flag we must use the SUID executable, `bandit20-do` in our current directory that will elevate our access in order to retrieve the flag located in `/etc/bandit_pass/bandit20`. The executable will require a location to the file where gaining access to, so we use this command:
+To retrieve the flag, we need to use the SUID executable `bandit20-do` located in the current directory. This executable will grant us elevated privileges, allowing us to access the flag stored in `/etc/bandit_pass/bandit20`.
+
+The executable requires the path to the file we’re trying to access. To retrieve the flag, use the following command:
 
 `./bandit20-do cat /etc/bandit_pass/bandit20`
+
+This command runs `cat` on the specified file with elevated permissions, enabling us to read the flag even if our current user doesn’t normally have access.
 
 ![IMAGE](https://github.com/reph0t/CTF/blob/023a794de39ac740ec1aa0cfe9ab9136eacb1422/OverTheWire/Bandit/src/Level_19-1.png)
 
