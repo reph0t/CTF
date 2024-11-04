@@ -40,6 +40,7 @@ In order to retieve the flag we must use the SUID executable, `bandit20-do` in o
 
 `./bandit20-do cat /etc/bandit_pass/bandit20`
 
+![IMAGE](https://github.com/reph0t/CTF/blob/023a794de39ac740ec1aa0cfe9ab9136eacb1422/OverTheWire/Bandit/src/Level_19-1.png)
 
 
 
