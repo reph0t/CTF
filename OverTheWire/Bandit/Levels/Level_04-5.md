@@ -1,5 +1,11 @@
 # LEVEL 4 → 5 
 
+>[!Important]
+> Username: `bandit4`
+>
+> Password: `2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ`
+
+
 ### Level Goal
 
 The password for the next level is stored in the only human-readable file in the inhere directory. Tip: if your terminal is messed up, try the “reset” command.
