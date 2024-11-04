@@ -16,7 +16,7 @@ Commands you may need to solve this level
 
 When trying to log in to bandit18, you may notice that the connection is immediately terminated upon login.
 
-![IMAGE]()
+![IMAGE](https://github.com/reph0t/CTF/blob/83e8aa6c491f7edb2f8fb922851e6fa369c10c1a/OverTheWire/Bandit/src/Level_18-1.png)
 
 This is due to a modification in the `.bashrc` file, which has been altered to prevent any interactive login to the server. You may wonder, "How can we retrieve the flag if we can't use `ssh` to log in normally?" The answer is that we can still use `ssh` to execute a single command remotely without opening an interactive shell.
 
