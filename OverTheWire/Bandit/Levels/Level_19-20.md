@@ -34,6 +34,9 @@ Key Points of Setuid:
    - Misconfigured Setuid Binaries: Poorly configured or vulnerable setuid programs can be exploited by attackers to escalate privileges.
    - Limited Use: Setuid should only be applied when absolutely necessary, and files with setuid should be carefully audited.
 
+>[!NOTE]
+> Basically SUID is what gives permission or changes the mode of a restricted file/directory that allows the current user or group to act as another user. 
+
 ### WALKTHROUGH
 
 In order to retieve the flag we must use the SUID executable, `bandit20-do` in our current directory that will elevate our access in order to retrieve the flag located in `/etc/bandit_pass/bandit20`. The executable will require a location to the file where gaining access to, so we use this command:
