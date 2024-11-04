@@ -26,8 +26,7 @@ Here’s the command:
 
 `ssh -p 2220 bandit18@bandit.labs.overthewire.org cat readme`
 
-![IMAGE]()
-
+![IMAGE](https://github.com/reph0t/CTF/blob/f8e79bf24c2ea2e1475633db8a8fc34bb7ef5117/OverTheWire/Bandit/src/Level_18-2.png)
 
 This command connects to `bandit18` and immediately runs `cat readme`, printing the contents of the file (the flag) to our terminal before the connection is closed.
 
