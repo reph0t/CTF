@@ -3,7 +3,7 @@
 >[!Important]
 > Username: `bandit1`
 >
-> Password: `bandit0`
+> Password: `ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If`
 
 
 ## Logging into Bandit1
