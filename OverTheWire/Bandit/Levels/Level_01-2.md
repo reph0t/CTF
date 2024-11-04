@@ -1,5 +1,11 @@
 # LEVEL 1 → 2
 
+>[!Important]
+> Username: `bandit1`
+>
+> Password: `bandit0`
+
+
 ## Logging into Bandit1
 
 Similar to logging into bandit0 with the credentials provided, we will login into bandit1 as the username and with the password we have retrieved from the previous level. 
