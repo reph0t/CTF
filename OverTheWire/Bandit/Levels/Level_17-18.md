@@ -16,8 +16,15 @@ NOTE: if you have solved this level and see ‘Byebye!’ when trying to log int
 
 #### WALKTHROUGH
 
-Here we have two files within our directory: `passwords.old` and `passwords.new`. So we will need to use `diff` to comapre between the two files and use piping and the grep commands:
+In this task, we have two files in our directory: `passwords.old` and `passwords.new`. To identify differences between these files, we’ll use the diff command to compare them, along with grep to filter the output.
+
+The command we’ll use is:
 
 `diff passwords.old passwords.new | grep -f passwords.new`
 
-![IMAGE]()
+**Command Breakdown**
+- `diff passwords.old passwords.new`: Compares passwords.old and passwords.new, highlighting any differences.
+- `| (Pipe)`: Passes the output of diff as input to the next command.
+`grep -f passwords.new`: Filters the diff output to show lines that match entries in passwords.new.
+
+![IMAGE](https://github.com/reph0t/CTF/blob/816d99c0746963c7a0b06566b644e6f81679bbe9/OverTheWire/Bandit/src/Level_17-1.png)
