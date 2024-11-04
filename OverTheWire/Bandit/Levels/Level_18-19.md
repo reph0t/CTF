@@ -12,6 +12,17 @@ Commands you may need to solve this level
 
 `ssh, ls, cat`
 
+### What is Non-Interactive SSH?
+
+The main goal of this level is to teach you how to execute `non-interactive SSH` commands and retrieve information from a restricted environment. Here’s why these skills are useful:
+
+`Non-Interactive SSH Session`: Normally, SSH is used to open an interactive session on a remote server. However, in cases where login is restricted, as in this level, SSH can still be used to run single commands remotely. This lets you retrieve information even without full login access.
+
+`Bypassing Login Restrictions`: The `.bashrc` file on this level’s server is modified to immediately close connections, simulating environments where interactive access is restricted. By using SSH to run commands directly, you can work around these restrictions.
+
+`Efficient Remote Command Execution`: Running a command remotely without an interactive session is a common technique for retrieving logs, checking statuses, and automating tasks on remote servers. This approach can save time and reduce the need for full access in automation or systems management.
+
+
 ### WALKTHROUGH
 
 When trying to log in to bandit18, you may notice that the connection is immediately terminated upon login.
