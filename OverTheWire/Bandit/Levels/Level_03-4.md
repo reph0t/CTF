@@ -1,5 +1,11 @@
 # **LEVEL 3 → 4**
 
+>[!Important]
+> Username: `bandit3`
+>
+> Password: `MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx`
+
+
 ### Level Goal
 
 The password for the next level is stored in a hidden file in the inhere directory.
