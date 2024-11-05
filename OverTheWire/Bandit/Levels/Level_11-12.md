@@ -1,5 +1,10 @@
 # LEVEL 11 → 12
 
+>[!Important]
+> Username: `bandit9`
+>
+> Password: `dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr`
+
 ### Level Goal
 
 The password for the next level is stored in the file data.txt, where all lowercase (a-z) and uppercase (A-Z) letters have been rotated by 13 positions
