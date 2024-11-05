@@ -1,5 +1,10 @@
 # LEVEL 10 → 11
 
+>[!Important]
+> Username: `bandit9`
+>
+> Password: `FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey`
+
 ### Level Goal
 
 The password for the next level is stored in the file data.txt, which contains base64 encoded data
