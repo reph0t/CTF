@@ -1,5 +1,10 @@
 # LEVEL 6
 
+>[!Important]
+> Username: `bandit6`
+>
+> Password: `HWasnPhtq9AVKe0dmk45nxy20cvUa6EG`
+
 ### Level Goal 
 
 The password for the next level is stored somewhere on the server and has all of the following properties:
