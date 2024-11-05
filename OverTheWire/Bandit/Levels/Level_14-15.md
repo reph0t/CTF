@@ -3,7 +3,7 @@
 >[!Important]
 > Username: `bandit14`
 >
-> Password: `8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo`
+> Password: `MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS`
 
 ### Level Goal 
 The password for the next level can be retrieved by submitting the password of the current level to port 30000 on localhost.
