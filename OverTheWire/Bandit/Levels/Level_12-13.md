@@ -1,7 +1,7 @@
 # LEVEL 12 → 13
 
 >[!Important]
-> Username: `bandit9`
+> Username: `bandit12`
 >
 > Password: `7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4`
 
