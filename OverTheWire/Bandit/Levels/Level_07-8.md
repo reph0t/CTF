@@ -1,4 +1,9 @@
-# LEVEL 7
+# LEVEL 7 → 8 
+
+>[!Important]
+> Username: `bandit7`
+>
+> Password: `morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj`
 
 ### Level Goal
 
