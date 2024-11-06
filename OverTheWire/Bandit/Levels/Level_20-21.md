@@ -3,7 +3,7 @@
 >[!Important]
 > Username: `bandit19`
 >
-> Password: `cGWpMaKXVwDUNgPAVJbWYuGHVn9zl3j8`
+> Password: `0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO`
 
 
 #### Level Goal
