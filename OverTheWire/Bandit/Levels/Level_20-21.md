@@ -29,7 +29,7 @@ In this level, we need to use a SUID binary to connect to a local host and retri
 
    ![IMAGE](https://github.com/reph0t/CTF/blob/4efd378b127e314dedd1bfff461e004edbac0442/OverTheWire/Bandit/src/Level_20-1.png)
 
-   - This command starts netcat in listen mode (`-l`) on the specified port (`4444`), waiting for incoming connections.
+   - This command starts `netcat` in listen mode (`-l`) on the specified port (`4444`), waiting for incoming connections.
 
 1. Run the SUID Binary:
 
@@ -39,7 +39,7 @@ In this level, we need to use a SUID binary to connect to a local host and retri
 
      ![IMAGE](https://github.com/reph0t/CTF/blob/ddf6e036f5de0b7d7c6bb6b7a28f8222233f1c21/OverTheWire/Bandit/src/Level_20-1.png)
      
-   - This command initiates a connection to the server on port 4444 that we set up in the first terminal.
+   - This command initiates a connection to the server on port `4444` that we set up in the first terminal.
 
 2. Provide the Password:
    - With the connection established, the listener terminal prompts for input. Enter the password in this terminal, and it will be sent through the connection.
