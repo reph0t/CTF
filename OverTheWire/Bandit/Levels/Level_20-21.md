@@ -13,6 +13,7 @@ There is a setuid binary in the homedirectory that does the following: it makes 
 NOTE: Try connecting to your own network daemon to see if it works as you think
 
 Commands you may need to solve this level
+
 `ssh, nc, cat, bash, screen, tmux, Unix ‘job control’ (bg, fg, jobs, &, CTRL-Z, …)`
 
 #### WALKTHROUGH
