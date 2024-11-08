@@ -15,14 +15,16 @@ A program is running automatically at regular intervals using cron, the time-bas
 
 Cron jobs are tasks scheduled to run automatically at specified intervals in Linux. There are multiple directories where cron jobs can be configured:
 
-- /etc/cron.d/: General configuration files for specific cron jobs.
-- /etc/cron.daily/, /etc/cron.hourly/, /etc/cron.weekly/, and /etc/cron.monthly/: Folders containing jobs set to run at daily, hourly, weekly, and monthly intervals, respectively.
+- `/etc/cron.d/`: General configuration files for specific cron jobs.
+- `/etc/cron.daily/`, `/etc/cron.hourly/`, `/etc/cron.weekly/`, and `/etc/cron.monthly/`: Folders containing jobs set to run at daily, hourly, weekly, and monthly intervals, respectively.
 
 Each cron job configuration file typically starts with five columns, indicating the scheduled time or interval for the task, followed by the command or program to execute.
 
 **Step 1: Locate the Relevant Cron Job**
 
 Following the task instructions, we navigate to the `/etc/cron.d/` directory to locate the configuration file. The file that stands out here is `cronjob_bandit22`, which appears to be related to our level.
+
+
 
 **Step 2: Examine the Cron Job Script**
 
