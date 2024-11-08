@@ -18,7 +18,3 @@ Commands you may need to solve this level
 
 #### WALKTHROUGH
 
-A program is automatically running at regular intervals using cron, the time-based job scheduler in Linux. To find out what command is being executed, we need to examine the configuration files in /etc/cron.d/.
-
-> ![Note]
-> Reading and understanding shell scripts written by others is a valuable skill. The script for this level is intentionally written in a simple, readable way. If you’re unsure about its functionality, try executing the script to see any debug information it outputs.
