@@ -29,8 +29,6 @@ Each cron job configuration file typically starts with five columns, indicating 
 
 Following the task instructions, we navigate to the `/etc/cron.d/` directory to locate the configuration file. The file that stands out here is `cronjob_bandit22`, which appears to be related to our level.
 
-
-
 **Step 2: Examine the Cron Job Script**
 
 In the cron job configuration, we see that it points to a shell script at `/usr/bin/cronjob_bandit22.sh`. Viewing the contents of this script reveals its purpose:
