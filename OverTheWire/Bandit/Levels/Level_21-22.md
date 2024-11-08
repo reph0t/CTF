@@ -3,7 +3,7 @@
 >[!Important]
 > Username: `bandit21`
 >
-> Password: `0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO`
+> Password: `EeoULMCra2q0dSkYj561DX7s1CpBuOBt`
 
 #### Level Goal
 A program is running automatically at regular intervals from cron, the time-based job scheduler. Look in /etc/cron.d/ for the configuration and see what command is being executed.
