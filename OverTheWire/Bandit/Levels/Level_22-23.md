@@ -1,6 +1,9 @@
-# Level 22 → Level 23
+# LEVEL 22 → 23
 
-
+>[!Important]
+> Username: `bandit22`
+>
+> Password: ``
 
 
 ### Level Goal
