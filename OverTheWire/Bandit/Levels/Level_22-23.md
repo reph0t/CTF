@@ -3,7 +3,7 @@
 >[!Important]
 > Username: `bandit22`
 >
-> Password: ``
+> Password: `tRae0UfB9v0UzbCdn9cY0gQnds9GF58Q`
 
 
 ### Level Goal
