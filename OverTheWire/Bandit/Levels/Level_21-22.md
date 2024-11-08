@@ -34,15 +34,17 @@ Following the task instructions, we navigate to the `/etc/cron.d/` directory to 
 
 **Step 2: Examine the Cron Job Script**
 
-In the cron job configuration, we see that it points to a shell script at `/usr/bin/cronjob_bandit22.sh`. Viewing the contents of this script reveals its purpose:
-
-`cat /usr/bin/cronjob_bandit22.sh`
+In the cron job configuration, we see that it points to a shell script at `/usr/bin/cronjob_bandit22.sh`. 
 
 ![IMAGE](https://github.com/reph0t/CTF/blob/60de2b8319691ce96d92be7491d604e703184fc5/OverTheWire/Bandit/src/Level_21-2.png)
 
-The script shows that it creates a file in the `/tmp` directory with permissions that allow anyone to read it (indicated by the `chmod` command). Then, it copies the contents of the bandit22 password file into this temporary file, effectively exposing the password in a readable location.
+Viewing the contents of this script reveals its purpose:
+
+`cat /usr/bin/cronjob_bandit22.sh`
 
 ![IMAGE](https://github.com/reph0t/CTF/blob/60de2b8319691ce96d92be7491d604e703184fc5/OverTheWire/Bandit/src/Level_21-3.png)
+
+The script shows that it creates a file in the `/tmp` directory with permissions that allow anyone to read it (indicated by the `chmod` command). Then, it copies the contents of the bandit22 password file into this temporary file, effectively exposing the password in a readable location.
 
 ![IMAGE](https://github.com/reph0t/CTF/blob/60de2b8319691ce96d92be7491d604e703184fc5/OverTheWire/Bandit/src/Level_21-4.png)
 
