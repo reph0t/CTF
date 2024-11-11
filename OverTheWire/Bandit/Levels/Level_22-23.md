@@ -65,11 +65,11 @@ The script automatically copies the password file of the current user (in this c
 **Step 3: Generate the Filename for the Password File**
 To locate the exact file where the password is stored, we can simulate the steps in the script by manually setting the `myname` variable to `bandit23` and running the hash command.
 
-1. Set the `myname` variable to `bandit23`:
+  1. Set the `myname` variable to `bandit23`:
 
 `myname=bandit23`
 
-2. Generate the MD5 hash to find the temporary filename:
+  2. Generate the MD5 hash to find the temporary filename:
    
 `echo I am user $myname | md5sum | cut -d ' ' -f 1`
 
