@@ -48,5 +48,6 @@ Steps:
 
 4. Observe Output: The script will iterate through all possible PINs, sending them to the daemon. Once the correct PIN is found, the daemon will provide a success message.
 
+![IMAGE](https://github.com/reph0t/CTF/blob/854982c3327de3c2502f65cd844080537a86705b/OverTheWire/Bandit/src/Level_24-1.png)
 
 
