@@ -8,12 +8,12 @@
 
 #### Level Goal
 
-A daemon is listening on port 30002 and will give you the password for bandit25 if given the password for bandit24 and a secret numeric 4-digit pincode. There is no way to retrieve the pincode except by going through all of the 10000 combinations, called brute-forcing.
+A `daemon` is listening on port `30002` and will give you the password for bandit25 if given the `password for bandit24` and a secret `numeric 4-digit pincode`. There is no way to retrieve the pincode except by going through all of the 10000 combinations, called brute-forcing.
 You do not need to create new connections each time
 
 #### What is a Daemon? 
 
-A daemon is a computer program that runs in the background, typically without direct user interaction. Daemons often handle specific tasks or services, such as listening for incoming connections or performing scheduled jobs.
+A `daemon` is a computer program that runs in the background, typically without direct user interaction. Daemons often handle specific tasks or services, such as listening for incoming connections or performing scheduled jobs.
 
 #### Walkthrough 
 
@@ -21,7 +21,7 @@ In this level, we are informed that a daemon is listening on port 30002, and our
 
 ##### What is Brute Force? 
 
-Brute force is a technique often used in cybersecurity where every possible combination of a password or PIN is systematically tested until the correct one is found. While this method guarantees success, it can be time-consuming depending on the complexity of the password or PIN.
+`Brute force` is a technique often used in cybersecurity where every possible combination of a password or PIN is systematically tested until the correct one is found. While this method guarantees success, it can be time-consuming depending on the complexity of the password or PIN.
 
 We’ll navigate to the tmp directory created in the previous levels and write a script to automate the brute-forcing process. This script will connect to the daemon, submit the current password along with each possible 4-digit PIN, and continue until the correct PIN is identified.
 
