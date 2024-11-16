@@ -1,6 +1,9 @@
 # Level 25 → Level 26
 
-
+>[!Important]
+> Username: `bandit25`
+>
+> Password: `gb8KRRCsshuZXI0tUuR6ypOFjiZbf3G8`
 
 #### Level Goal
 
